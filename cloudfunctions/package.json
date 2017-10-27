@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@google-cloud/debug-agent": "latest"
+	}
+}
