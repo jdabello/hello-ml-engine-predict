@@ -24,6 +24,15 @@ Before you can run or deploy the sample, you need to do the following:
 2. 
 ## Running locally
 
+This sample uses the default authentication credentials to access Cloud ML. For that reason we need to set the project that we want to use.
+
+1. Use gcloud to set the property value of your active project.
+
+```bash
+gcloud config set project <MY-GCP-PROJECT>
+```
+
+2. Start the application.
 With `npm`:
 
     npm start
