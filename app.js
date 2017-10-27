@@ -25,7 +25,6 @@ function predict (res, req) {
 	var machinelearning = google.ml('v1');
 	// This method looks for the GCLOUD_PROJECT and GOOGLE_APPLICATION_CREDENTIALS
 	// environment variables.
-	var temp;
 	google.auth.getApplicationDefault(function (err, authClient, projectId) {
 	  	if (err) {
 	    	console.log('Authentication failed because of ', err);
@@ -51,7 +50,6 @@ function predict (res, req) {
 	      		res.status(200).send('Hello, world! This is the prediction: ' + JSON.stringify(result)).end();
 	    	}
 	  	});
-	});
-	console.log(temp);		
+	});	
 }
 // [END predict]
