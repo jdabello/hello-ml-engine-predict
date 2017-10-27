@@ -21,7 +21,7 @@ Before you can run or deploy the sample, you need to do the following:
     or with `yarn`:
 
         yarn install
-2. 
+        
 ## Running locally
 
 This sample uses the default authentication credentials to access Cloud ML. For that reason we need to set the project that we want to use.
